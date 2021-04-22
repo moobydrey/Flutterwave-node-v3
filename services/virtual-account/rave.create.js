@@ -10,6 +10,9 @@ const spec = morx.spec()
     .build('narration', 'required:false, eg:New card created')
     .build('tx_ref', 'required:true, eg:jhn-mdkn-10192029920')
     .build('amount', 'required:false, eg:5000')
+    .build('firstname', 'required:false, eg:5000')
+    .build('lastname', 'required:false, eg:5000')
+    .build('bvn', 'required:true, eg:5000')
     .end();
 
 function service(data, _rave) {
